@@ -15,22 +15,22 @@
 		var t = $(this);
 		var title = $('#project-title').val();
 		if ( title == '' ) {
-			alert( 'You have input title.' );
+			alert( 'You must input a title.' );
 			return;
 		}
 		var desc = $('#project-desc').val();
 		if ( desc == '' ) {
-			alert( 'You have input description.' );
+			alert( 'You must input a description.' );
 			return;
 		}
 		var assignee = $('#project-assignee').val();
 		if ( !assignee ) {
-			alert( 'You have choose assignee.' );
+			alert( 'You must choose an assignee.' );
 			return;
 		}
 		var cat = $('#project-cat').val();
 		if ( !cat ) {
-			alert( 'You have choose category.' );
+			alert( 'You must choose a category.' );
 			return;
 		}
         // this is a check box for the terms and conditions
