@@ -223,10 +223,11 @@ table tbody tr:hover {
 .logo {
     text-align: center;
     margin-top: 12px;
-    /* width: 100%; */
+    /*width: 100%;*/
 }
 .logo img {
-	height: 40px;
+  max-height: 55px!important;
+  width: 100%!important;
 }
 /* home css */
 /* ============================================================================================== 

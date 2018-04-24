@@ -17,6 +17,8 @@ $session = isset( $_SESSION ) ? $_SESSION : null;
 	<meta charset="UTF-8">
 	<meta http-equiv="content-type" content="text/html; charset=utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0">
+	<link rel="shortcut icon" href="assets/images/favicon.ico" type="image/x-icon">
+	<link rel="icon" href="assets/images/favicon.ico" type="image/x-icon">
 
 	<title>GWizards | Project Management System</title>
 	<div class="fit-vids-style">&shy;<style> .fluid-width-video-wrapper { width: 100%; position: relative; padding: 0; } .fluid-width-video-wrapper iframe, .fluid-width-video-wrapper object, .fluid-width-video-wrapper embed { position: absolute; top: 0; left: 0; width: 100%; height: 100%; } </style></div>
@@ -40,12 +42,12 @@ $session = isset( $_SESSION ) ? $_SESSION : null;
 				<div class="sidemenu-header">
 					<div class="logo">
 						<!--logo standard-->
-						<a href="http://localhost/GWizardsSystem/" class="real-logo standard-logo" https:="" >
-						<img src="assets/images/logo.png" alt="">
+						<a href="http://localhost/GWizards_Project_System/" class="real-logo standard-logo" https:="" >
+						<img src="assets/images/logo1.png" alt="">
 						</a>
 
 						<!--mini logo - when sidemenu is minimized-->
-						<a href="http://localhost/GWizardsSystem/" class="mini-logo standard-logo" https:="" >
+						<a href="http://localhost/GWizards_Project_System/" class="mini-logo standard-logo" https:="" >
 						<img src="assets/images/logo-mini.png" alt="">
 						</a>
 					</div>
@@ -156,7 +158,7 @@ $session = isset( $_SESSION ) ? $_SESSION : null;
 													$notifications = $project->unapproved_project;
 												?>
 												<li class="alan-menu alan-tasks-nav has-submenu alan-tasks menu-item menu-item-type-custom menu-item-object-custom">        
-													<a href="http://localhost/GWizardsSystem/project.php?filter=unapproved">
+													<a href="http://localhost/GWizards_Project_System/project.php?filter=unapproved">
 														<i class="icon-tasks-line"></i>
 														<?php if ( $notifications ): ?>
 															<b class="bubble"><?php echo count( $notifications ) ?></b>
@@ -177,7 +179,7 @@ $session = isset( $_SESSION ) ? $_SESSION : null;
 																		$class = 'todo-important';
 																	}
 																	?>
-																	<li class="<?php echo $class ?> todo-list"><a href="http://localhost/GWizardsSystem/project-single.php?id=<?php echo $noti['id'] ?>"><?php echo $noti['title'] ?></a></li>
+																	<li class="<?php echo $class ?> todo-list"><a href="http://localhost/GWizards_Project_System/project-single.php?id=<?php echo $noti['id'] ?>"><?php echo $noti['title'] ?></a></li>
 																<?php endforeach ?>
 															</ol>
 														</li>

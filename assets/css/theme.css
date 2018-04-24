@@ -3071,8 +3071,10 @@ html.hiddenscroll .scroll-container {
   margin: 0 10px;
 }
 .logo img {
-  max-height: 25px;
-  max-width: inherit;
+ /* max-height: 25px;
+  max-width: inherit;*/
+  max-height: 55px;
+  width: 100%;
 }
 /* SIDEMENU Open - .logo ------------------------------------------------------- */
 @media only screen and (min-width: 768px) {
@@ -9937,7 +9939,7 @@ table:not(#wp-calendar) thead tr th {
     width: 60px;
   }
   .sidemenu-is-open #sidemenu-wrapper .sidemenu-header .logo {
-    padding: 0 0 0 17.5px;
+    padding: 0 5px 5px 5px;
   }
   .sidemenu-is-open #sidemenu-wrapper .menu-section {
     width: 60px;
