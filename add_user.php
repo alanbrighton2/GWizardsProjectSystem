@@ -15,16 +15,16 @@ if ( $session ):
 											<form method="POST" action="modules/add_user.php">
 												<div class="form-group">
 													<label for="display-name">Display Name</label>
-													<input type="display-name" name="display-name" class="form-control" id="display-name">
+													<input type="display-name" name="display-name" class="form-control" id="display-name" placeholder="An optional display name, your email address will be used if this is left empty">
 												</div>
 												<div class="form-group">
 													<label for="password">Password</label>
-													<input type="text" name="password" class="form-control" id="password">
+													<input type="text" name="password" class="form-control" id="password" placeholder="Input requested user password or generate a random one">
 													<button id="generate-password">Generate Password</button>
 												</div>
 												<div class="form-group">
 													<label for="email">Email</label>
-													<input type="email" name="email" class="form-control" id="email">
+													<input type="email" name="email" class="form-control" id="email" placeholder="Input the users University of Greenwich email">
 													<?php $status = isset( $_GET['status'] ) ? $_GET['status'] : null; ?>
 													<?php if ( $status && $_GET['code'] ):
 														$code = isset( $_GET['code'] ) ? $_GET['code'] : null;

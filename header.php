@@ -18,7 +18,7 @@ $session = isset( $_SESSION ) ? $_SESSION : null;
 	<meta http-equiv="content-type" content="text/html; charset=utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0">
 
-	<title>Alan | Web</title>
+	<title>GWizards | Project Management System</title>
 	<div class="fit-vids-style">&shy;<style> .fluid-width-video-wrapper { width: 100%; position: relative; padding: 0; } .fluid-width-video-wrapper iframe, .fluid-width-video-wrapper object, .fluid-width-video-wrapper embed { position: absolute; top: 0; left: 0; width: 100%; height: 100%; } </style></div>
 
 	<link rel="stylesheet" id="alan-google-fonts-css" href="//fonts.googleapis.com/css?family=Montserrat:400,700|Open+Sans:300,300italic,400,400italic,600,600italic,700,700italic,800,800italic" type="text/css" media="all">
@@ -123,7 +123,7 @@ $session = isset( $_SESSION ) ? $_SESSION : null;
 					<div class="logo">
 						<!-- top-header and mobile logo only-->
 						<a href="#" class="mobile-logo standard-logo">
-							Alan Demo
+							GWizards Project System Mobile
 						</a>
 					</div>
 					<div class="header-left">

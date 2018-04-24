@@ -151,7 +151,7 @@ CREATE TABLE `users` (
 
 INSERT INTO `users` (`id`, `display_name`, `password`, `email`, `role`) VALUES
 (1, 'Alan', '$2a$12$769a6fda1d4de82eb0dc3ec7uPoFixGioWE/JRVHxs.p9a4BRS95C', 'sw3456q@greenwich.ac.uk', 0),
-(2, 'Allen', '$2a$12$05447101d89773ba13566uq.nSkic0CUt2rmoeZF9/ytOmc2uVJxG', 'pumpkjn1508@gmail.com', 1);
+(2, 'Allen', '$2a$12$05447101d89773ba13566uq.nSkic0CUt2rmoeZF9/ytOmc2uVJxG', 'alanw235@hotmail.com', 1);
 
 --
 -- Index pour les tables exportées
